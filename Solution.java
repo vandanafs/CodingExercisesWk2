@@ -76,7 +76,17 @@ public class Solution {
         System.out.println("smallest number is :"+smallest);
     }
 
+    void soln4_2() {
+        //find largest
+        double max=Double.NEGATIVE_INFINITY;
+        int[] a={9,5,6,3,8,2,4};
+        for(int i=0; i<a.length; i++){
+           if( a[i]>max){
+               max=a[i];
+           }
 
+        }
+  }
     void soln5() {
   // largest array
         int [] a = {9, 5, 6, 3, 8, 2, 4};
@@ -242,6 +252,7 @@ public class Solution {
       boolean acOn=false;
 
   while(true){
+
       double temp=Math.round(Math.random()*100+1);
       System.out.println("random:"+temp);
       if(temp<72){
@@ -319,6 +330,7 @@ double hypotenuse;
 double result;
 double a=9;
 double b=7;
+
 result =Math.pow(a,2)+Math.pow(b,2);
 hypotenuse=Math.sqrt(result);
       System.out.println(hypotenuse);
